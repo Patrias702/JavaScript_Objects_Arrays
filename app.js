@@ -50,7 +50,7 @@ let words = sentence.split(" ");
 for (let i = 0; i < words.length; i++) {
     let letters = words [i].split (""); 
     letters.reverse();
-    let reverseWord = letters.join(" ");
+    let reverseWord = letters.join("");
    result.push(reverseWord);
  }
  return result.join(" ");
